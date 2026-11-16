@@ -1,12 +1,23 @@
 
 <!-- ================= HEADER BANNER ================= -->
 
+
 <p align="center">
-  <img
-    src="images/mohammed-amgd-orbits-github-background.svg"
-    width="100%"
-    alt="Mohammed Amgd - Software Developer and Data Analyst"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="images/mohammed-amgd-orbits-github-background.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="images/orbits-light.svg"
+    />
+    <img
+      src="images/orbits-light.svg"
+      width="100%"
+      alt="Mohammed Amgd - Animated Technology Orbits"
+    />
+  </picture>
 </p>
 
 <!-- ================= TYPING ANIMATION ================= -->
@@ -45,12 +56,24 @@
 <h2 align="center">👨‍💻 About Me</h2>
 
 
-<img
-  align="right"
-  src="images/coding-github-background.gif"
-  width="140"
-  alt="Coding Animation"
-/>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="images/coding-github-background.gif"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="images/coding-light.gif"
+  />
+  <img
+    align="right"
+    src="images/coding-light.gif"
+    width="140"
+    alt="Coding Animation"
+  />
+</picture>
+
 
 
 Hi, I'm **Mohamed Amgd**, a **Software Developer & Data Analyst** from Egypt. 🇪🇬
