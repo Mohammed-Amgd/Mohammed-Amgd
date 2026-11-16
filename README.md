@@ -3,7 +3,7 @@
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:1a3554,100:0e75b6&amp;height=220&amp;section=header&amp;text=Mohamed%20Amgd&amp;fontSize=50&amp;fontColor=ffffff&amp;fontAlignY=35&amp;desc=Software%20Developer%20and%20Data%20Analyst&amp;descAlignY=58&amp;descSize=19"
+    src="images/mohammed-amgd-orbits-github-background.svg"
     width="100%"
     alt="Mohammed Amgd - Software Developer and Data Analyst"
   />
@@ -44,12 +44,14 @@
 
 <h2 align="center">👨‍💻 About Me</h2>
 
+
 <img
   align="right"
-  src="images/coding.gif"
+  src="images/coding-github-background.gif"
   width="140"
-  alt="Animated coding illustration"
+  alt="Coding Animation"
 />
+
 
 Hi, I'm **Mohamed Amgd**, a **Software Developer & Data Analyst** from Egypt. 🇪🇬
 
