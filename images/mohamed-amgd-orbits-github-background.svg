@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Mohamed Amgd — software development, data and mathematics animated orbital banner</title>
+<desc id="desc">Mohamed Amgd, Software Developer and Data Analyst, surrounded by animated icons for programming languages, web development, analytics, and development tools.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#08101d"/><stop offset=".55" stop-color="#112a46"/><stop offset="1" stop-color="#0b4975"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#137ba8"/><stop offset=".5" stop-color="#40d7ff"/><stop offset="1" stop-color="#0b679f"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#1e91ce" stop-opacity=".23"/><stop offset="1" stop-color="#1e91ce" stop-opacity="0"/></radialGradient>
+ <linearGradient id="wave"><stop stop-color="#041122"/><stop offset="1" stop-color="#09608c"/></linearGradient>
+ <filter id="glow" x="-90%" y="-90%" width="280%" height="280%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#020812" flood-opacity=".9"/></filter>
+ <style>
+ .track{fill:none;stroke:url(#line);stroke-width:1.2;opacity:.32}
+ .track.alt{stroke-dasharray:3 7;opacity:.18}
+ .icon-disc{fill:#0b1f35;stroke-width:1.4}
+ .glyph{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:800;text-anchor:middle;dominant-baseline:middle}
+ .moving{filter:url(#glow)}
+ @media(prefers-reduced-motion:reduce){.moving animateMotion{display:none}}
+ </style>
+
+<path id="ring0" d="M 1105 178 A 505 122 0 1 1 95 178 A 505 122 0 1 1 1105 178 Z"/>
+<path id="ring1" d="M 1072 178 A 472 111 4 1 1 128 178 A 472 111 4 1 1 1072 178 Z"/>
+<path id="ring2" d="M 1040 178 A 440 99 -4 1 1 160 178 A 440 99 -4 1 1 1040 178 Z"/>
+<path id="ring3" d="M 1005 178 A 405 88 3 1 1 195 178 A 405 88 3 1 1 1005 178 Z"/>
+</defs>
+<rect width="1200" height="360" fill="#0d1117"/>
+
+<use xlink:href="#ring0" class="track"/>
+<use xlink:href="#ring1" class="track alt"/>
+<use xlink:href="#ring2" class="track"/>
+<use xlink:href="#ring3" class="track alt"/>
+<g class="moving"><title>Python</title><animateMotion dur="20s" begin="0.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#3776AB"/><circle r="15" fill="#3776AB" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#3776AB" font-size="13">Py</text></g>
+<g class="moving"><title>Java</title><animateMotion dur="20s" begin="-3.333s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#E76F00"/><circle r="15" fill="#E76F00" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#E76F00" font-size="13">Ja</text></g>
+<g class="moving"><title>C++</title><animateMotion dur="20s" begin="-6.667s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#659AD2"/><circle r="15" fill="#659AD2" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#659AD2" font-size="13">C++</text></g>
+<g class="moving"><title>JavaScript</title><animateMotion dur="20s" begin="-10.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#F7DF1E"/><circle r="15" fill="#F7DF1E" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#102033" font-size="13">JS</text></g>
+<g class="moving"><title>React</title><animateMotion dur="20s" begin="-13.333s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#61DAFB"/><circle r="15" fill="#61DAFB" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#61DAFB" font-size="13">⚛</text></g>
+<g class="moving"><title>HTML</title><animateMotion dur="20s" begin="-16.667s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#E34F26"/><circle r="15" fill="#E34F26" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#E34F26" font-size="11">HTML</text></g>
+<g class="moving"><title>CSS</title><animateMotion dur="27s" begin="0.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#1572B6"/><circle r="15" fill="#1572B6" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#1572B6" font-size="13">CSS</text></g>
+<g class="moving"><title>Node.js</title><animateMotion dur="27s" begin="-4.500s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#5FA04E"/><circle r="15" fill="#5FA04E" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#5FA04E" font-size="11">Node</text></g>
+<g class="moving"><title>SQL</title><animateMotion dur="27s" begin="-9.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#5BB8F3"/><circle r="15" fill="#5BB8F3" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#5BB8F3" font-size="13">SQL</text></g>
+<g class="moving"><title>PostgreSQL</title><animateMotion dur="27s" begin="-13.500s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#4169E1"/><circle r="15" fill="#4169E1" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#4169E1" font-size="13">PG</text></g>
+<g class="moving"><title>Git</title><animateMotion dur="27s" begin="-18.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#F05032"/><circle r="15" fill="#F05032" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#F05032" font-size="13">Git</text></g>
+<g class="moving"><title>GitHub</title><animateMotion dur="27s" begin="-22.500s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#E8EDF5"/><circle r="15" fill="#E8EDF5" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#E8EDF5" font-size="13">GH</text></g>
+<g class="moving"><title>Pandas</title><animateMotion dur="34s" begin="0.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring2"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#EBE6FF"/><circle r="15" fill="#EBE6FF" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#EBE6FF" font-size="13">Pd</text></g>
+<g class="moving"><title>NumPy</title><animateMotion dur="34s" begin="-6.800s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring2"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#4DABCF"/><circle r="15" fill="#4DABCF" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#4DABCF" font-size="13">Num</text></g>
+<g class="moving"><title>Matplotlib</title><animateMotion dur="34s" begin="-13.600s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring2"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#60A5FA"/><circle r="15" fill="#60A5FA" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#60A5FA" font-size="13">Mpl</text></g>
+<g class="moving"><title>Excel</title><animateMotion dur="34s" begin="-20.400s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring2"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#21A366"/><circle r="15" fill="#21A366" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#21A366" font-size="13">X</text></g>
+<g class="moving"><title>Power BI</title><animateMotion dur="34s" begin="-27.200s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring2"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#F2C811"/><circle r="15" fill="#F2C811" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#F2C811" font-size="13">BI</text></g>
+<g class="moving"><title>Tableau</title><animateMotion dur="40s" begin="0.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring3"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#E97627"/><circle r="15" fill="#E97627" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#E97627" font-size="13">Tab</text></g>
+<g class="moving"><title>VS Code</title><animateMotion dur="40s" begin="-10.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring3"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#23A9F2"/><circle r="15" fill="#23A9F2" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#23A9F2" font-size="13">VS</text></g>
+<g class="moving"><title>IntelliJ</title><animateMotion dur="40s" begin="-20.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring3"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#F36BA4"/><circle r="15" fill="#F36BA4" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#F36BA4" font-size="13">IJ</text></g>
+<g class="moving"><title>Postman</title><animateMotion dur="40s" begin="-30.000s" rotate="0" repeatCount="indefinite"><mpath xlink:href="#ring3"/></animateMotion>
+<circle class="icon-disc" r="18" stroke="#FF6C37"/><circle r="15" fill="#FF6C37" fill-opacity=".19"/>
+<text class="glyph" y="1" fill="#FF6C37" font-size="13">Pm</text></g>
+<g filter="url(#shadow)" text-anchor="middle" font-family="Arial,Helvetica,sans-serif">
+ <text x="600" y="169" font-size="63" font-weight="750" letter-spacing="-.8" fill="#ffffff">Mohamed Amgd</text>
+ <text x="600" y="216" font-size="24" font-weight="600" fill="#c9edff">Software Developer and Data Analyst</text>
+</g>
+</svg>
